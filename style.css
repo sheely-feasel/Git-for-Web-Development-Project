@@ -1,0 +1,57 @@
+html {
+  border: 20px solid aqua;
+  padding: 50px;
+}
+h1 {
+  text-align: center;
+  color: grey;
+  font-size: 40px;
+  margin: 0px 0;
+}
+h1:hover {
+  color: mistyrose;
+}
+.first:hover {
+  background-color: #deb887;
+}
+.first {
+  background: #7fffd4;
+  color: grey;
+  padding: 30px;
+}
+
+.second {
+  background-color: #2f4f4f;
+  color: aqua;
+  padding: 40px;
+}
+
+.second:hover {
+  background-color: #696969;
+  color: #deb887;
+}
+.third {
+  color: grey;
+}
+
+.third:hover {
+  color: orange;
+}
+h3 {
+  color: grey;
+  text-transform: uppercase;
+}
+h3:hover {
+  text-transform: capitalize;
+  color: orange;
+}
+.gallery {
+  display: flex;
+  flex-directions: row;
+  justify-content: space-between;
+  padding: 10% 0;
+}
+
+.images:hover {
+  border: 10px dotted magenta;
+}
