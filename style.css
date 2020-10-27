@@ -47,7 +47,7 @@ h3:hover {
 }
 .gallery {
   display: flex;
-  flex-directions: row;
+  flex-direction: row;
   justify-content: space-between;
   padding: 10% 0;
 }
